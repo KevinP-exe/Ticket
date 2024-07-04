@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    app:cardBackgroundColor="#009688"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/txtNombreCard"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Text"
+            android:textColor="#2E2E2E"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imgBorrar"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/vector_asset_delete" />
+
+        <ImageView
+            android:id="@+id/imgActualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/vector_asset_update" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Vigencia" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

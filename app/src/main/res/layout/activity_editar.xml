@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#009688">
+
+    <EditText
+        android:id="@+id/editTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/editNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Responsable"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/editTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefono"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/editUbicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ubicacion"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"/>
+
+</LinearLayout>
